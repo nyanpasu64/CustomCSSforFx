@@ -6,7 +6,7 @@
 @-moz-document url-prefix(about:config) {
 
 	* {
-	  font-size: 9pt !important;
+	  font-size: 13.33px !important;
 	}
 
 	#prefs,
