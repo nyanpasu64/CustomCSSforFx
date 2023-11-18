@@ -62,12 +62,12 @@ treechildren::-moz-tree-image(query, OrganizerQuery_downloads__v) {
   list-style-image: url("chrome://browser/skin/downloads/downloads.svg") !important;
 }
 
-toolbarbutton.bookmark-item[container],
+#PlacesToolbarItems toolbarbutton.bookmark-item.bookmark-item.bookmark-item.bookmark-item[container],
 .bookmark-item[container] .menu-iconic-left .menu-iconic-icon {
   list-style-image: url("./../../image/folder-item.png") !important;
 }
 
-toolbarbutton.bookmark-item[container][open],
+#PlacesToolbarItems toolbarbutton.bookmark-item.bookmark-item.bookmark-item.bookmark-item[container][open],
 .bookmark-item[container][open] .menu-iconic-left .menu-iconic-icon {
  list-style-image: url("./../../image/folder-item2.png")!important;
 }
