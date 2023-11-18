@@ -119,16 +119,16 @@
 */
 
 /* default 'grey' colors */
-@import "./config/color_variables.css"; /**/
+/*@import "./config/color_variables.css";*/
 
 /* 'AeroBlue' colors (Win 7 Aero) */
-/* @import "./config/color_variables_aero.css"; /**/
+/*@import "./config/color_variables_aero.css";*/
 
 /* 'Classic grey' colors (Win Classic) */
 /* @import "./config/color_variables_classic-grey.css"; /**/
 
 /* 'Firefox 3-like' blueish colors */
-/* @import "./config/color_variables_fx3.css"; /**/
+@import "./config/color_variables_fx3.css";
 
 /* (Semi-)'transparent' colors */
 /* @import "./config/color_variables_transparent.css"; /**/
@@ -479,7 +479,7 @@
 */
 
 /* label only */
-@import "./css/appbutton/appbutton_in_titlebar.css"; /**/
+/*@import "./css/appbutton/appbutton_in_titlebar.css";*/
 
 /* icon only */
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only.css"; /**/
@@ -583,7 +583,7 @@
 */
 
 /* Windows/Linux */
-/* @import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/
+@import "./css/tabs/tabs_below_navigation_toolbar.css";
 
 /* MacOS */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_macOS.css"; /**/
@@ -1165,8 +1165,8 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/locationbar/starbutton_alternative_icon.css"; /**/
-/* @import "./css/locationbar/starbutton_alternative_icon_v2.css"; /**/
+@import "./css/locationbar/starbutton_alternative_icon.css";
+/*@import "./css/locationbar/starbutton_alternative_icon_v2.css";*/
 
 
 /* ------------------------------
