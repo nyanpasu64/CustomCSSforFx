@@ -4,7 +4,7 @@
 
 
 :root{
-  --urlbar_border_color: color-mix(in srgb, currentColor 20%, transparent);
+  --urlbar_border_color: #a0a0a0;
 
   &:-moz-lwtheme {
     --urlbar_border_color: rgba(0,0,0,.3);
