@@ -222,12 +222,12 @@
    [!] good for Dark themes: buttons_on_navbar_glass_appearance.css
 */
 
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/*@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; */
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_dark.css"; /**/		
-/* @import "./css/buttons/buttons_on_navbar_aero_appearance.css"; /**/
+@import "./css/buttons/buttons_on_navbar_aero_appearance.css";
 /* @import "./css/buttons/buttons_on_navbar_windows_classic_theme_appearance.css"; /**/
-/* @import "./css/buttons/buttons_on_navbar_glass_appearance.css"; /**/
+/*@import "./css/buttons/buttons_on_navbar_glass_appearance.css";*/
 /* @import "./css/buttons/buttons_on_navbar_osx_appearance.css"; /**/
 
 
