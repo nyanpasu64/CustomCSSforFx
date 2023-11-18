@@ -112,6 +112,7 @@
   border-top: var(--classic_squared_tabs-border_size) solid var(--classic_squared_tabs-border3) !important;
   border-left: var(--classic_squared_tabs-border_size) solid var(--classic_squared_tabs-border3) !important;
   border-right: var(--classic_squared_tabs-border_size) solid var(--classic_squared_tabs-border3) !important;
+  margin-top: 1px !important;
 }
 
 /* new tab icon color */
