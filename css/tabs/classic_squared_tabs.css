@@ -78,6 +78,11 @@
 #TabsToolbar:not(:-moz-lwtheme) .tabbrowser-tab .tab-content:is([selected],[multiselected]) {
   background-image: var(--classic_squared_tabs_active_tab) !important;
 }
+
+#TabsToolbar:not(:-moz-lwtheme) .tabbrowser-tab .tab-content[selected] label {
+  font-weight: bold !important;
+}
+
 /* hovered tabs color */
 #TabsToolbar:not(:-moz-lwtheme) :is(.tabs-newtab-button,#tabs-newtab-button):hover,
 #TabsToolbar:not(:-moz-lwtheme) .tabbrowser-tab:hover .tab-content:not([selected],[multiselected]) {
