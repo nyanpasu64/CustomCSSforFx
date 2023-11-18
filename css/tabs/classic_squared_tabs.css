@@ -499,8 +499,8 @@
   min-height: var(--classic_squared_tabs_tab_height) !important;
 }
 
-.tab-close-button {
-  margin-inline-end: -6px !important;
+.tabbrowser-tab.tabbrowser-tab.tabbrowser-tab > .tab-stack > .tab-content > .tab-close-button {
+  margin-inline-end: -2px !important;
   margin-inline-start: 2px !important;
   width: 14px !important;
   height: 14px !important;
