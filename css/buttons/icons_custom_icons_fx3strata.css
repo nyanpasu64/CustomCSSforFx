@@ -35,6 +35,13 @@
   list-style-image: url("../../image/icons_fx3_strata/reload.png") !important;
 }
 
+#nav-bar-customization-target :where(#reload-button, #stop-button) > .toolbarbutton-icon {
+  width: calc(2 * var(--toolbarbutton-inner-padding) + 20px) !important;
+  height: calc(2 * var(--toolbarbutton-inner-padding) + 20px) !important;
+  --toolbarbutton-inner-padding: 6px;
+}
+
+
 #bookmarks-menu-button,#bookmarks-toolbar-placeholder {
   list-style-image: url("../../image/icons_fx3_strata/bookmarks.png") !important;
 }
