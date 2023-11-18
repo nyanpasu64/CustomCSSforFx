@@ -13,3 +13,8 @@
   appearance: auto !important;
   -moz-default-appearance: toolbarbutton !important;
 }
+
+#navigator-toolbox #nav-bar :is(#back-button, #forward-button) {
+  appearance: none !important;
+  -moz-default-appearance: none !important;
+}
