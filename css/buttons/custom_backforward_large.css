@@ -83,7 +83,7 @@
 }
 #main-window #navigator-toolbox #nav-bar :is(#back-button, #forward-button)[disabled] .toolbarbutton-icon {
   opacity: 1.0 !important;
-  filter: grayscale(75%) !important;
+  filter: unset !important;
 }
 #main-window #navigator-toolbox #nav-bar :is(#back-button, #forward-button)[disabled] {
   opacity: 1.0 !important;

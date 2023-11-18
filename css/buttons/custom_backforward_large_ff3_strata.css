@@ -19,3 +19,18 @@
 #main-window #navigator-toolbox #nav-bar #forward-button .toolbarbutton-icon {
   list-style-image: url("./../../image/bf_ff3_strata_f.png") !important;
 }
+
+/* disabled */
+#main-window:not([uidensity=compact]):not([uidensity=touch]) #navigator-toolbox #nav-bar #back-button[disabled] .toolbarbutton-icon,
+#main-window[uidensity=compact] #navigator-toolbox #nav-bar #back-button[disabled] .toolbarbutton-icon,
+#main-window[uidensity=touch] #navigator-toolbox #nav-bar #back-button[disabled] .toolbarbutton-icon,
+#main-window #navigator-toolbox #nav-bar #back-button[disabled] .toolbarbutton-icon {
+  list-style-image: url("./../../image/bf_ff3_strata_b_dis.png") !important;
+}
+
+#main-window:not([uidensity=compact]):not([uidensity=touch]) #navigator-toolbox #nav-bar #forward-button[disabled] .toolbarbutton-icon,
+#main-window[uidensity=compact] #navigator-toolbox #nav-bar #forward-button[disabled] .toolbarbutton-icon,
+#main-window[uidensity=touch] #navigator-toolbox #nav-bar #forward-button[disabled] .toolbarbutton-icon,
+#main-window #navigator-toolbox #nav-bar #forward-button[disabled] .toolbarbutton-icon {
+  list-style-image: url("./../../image/bf_ff3_strata_f_dis.png") !important;
+}
