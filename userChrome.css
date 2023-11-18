@@ -277,8 +277,8 @@
 
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance_dark.css"; /**/
-/* @import "./css/buttons/buttons_on_bookmarks_toolbar_aero_appearance.css"; /**/
-/* @import "./css/buttons/buttons_on_bookmarks_toolbar_old_size_and_appearance.css"; /**/
+/*@import "./css/buttons/buttons_on_bookmarks_toolbar_aero_appearance.css";*/
+@import "./css/buttons/buttons_on_bookmarks_toolbar_old_size_and_appearance.css";
 
 
 /* ---------------------------------------------
