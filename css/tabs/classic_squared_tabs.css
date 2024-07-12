@@ -106,6 +106,7 @@
   border-top: var(--classic_squared_tabs-border_size) solid var(--classic_squared_tabs-border2) !important;
   border-left: var(--classic_squared_tabs-border_size) solid var(--classic_squared_tabs-border2) !important;
   border-right: var(--classic_squared_tabs-border_size) solid var(--classic_squared_tabs-border2) !important;
+  margin-top: 1px !important;
 }
 
 #TabsToolbar .tabbrowser-tab:not(:-moz-lwtheme):not([selected],[multiselected]) .tab-content {
